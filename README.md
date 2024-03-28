@@ -2,6 +2,23 @@
 
 A repository showcasing how to use ChatGPT to generate Python 3 code for various purposes.
 
+## Snippets
+
+Below is a snippet I frequently use when instructing ChatGPT to write Python 3 code:
+
+~~~
+I would like to add some additional specifications below.
+- Add a help option using argparse.
+- Add an option to specify the output filename. Use a default name by adding a specific suffix after the original basename.
+- Give some candidates for the file name of the script.
+- Ask "(y)es/(n)o" before overwriting an existing file (default: no). 
+- Add the following shebang and an encoding declaration.
+```
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+```
+~~~
+
 ## Adding a Help Option
 
 One useful feature that ChatGPT can add to scripts is a help option. This option allows users to view a description of the script's functionality and usage instructions directly from the command line. To add a help option, ChatGPT typically uses the `argparse` module in Python, which provides a way to parse command-line options and arguments.
@@ -15,6 +32,26 @@ python script_name.py --help
 ```
 
 This will display the help message, including a brief description of the script and the available options.
+
+## Additional Specifications for Scripts
+
+The following are some additional specifications that can be included in Python scripts to enhance their functionality:
+
+- **Output Filename Specification:** An option can be added to specify the output filename. If not specified, a default name can be used by adding a specific suffix after the original basename.
+
+- **Filename Candidates:** When suggesting filenames for the script, some candidates can be provided for the user to choose from.
+
+- **Overwrite Confirmation:** Before overwriting an existing file, the script can ask for confirmation from the user with a "(y)es/(n)o" prompt. By default, the script can be set not to overwrite the file.
+
+- **Shebang and Encoding Declaration:** The following shebang and encoding declaration can be added at the beginning of the script to ensure that it is executed using Python 3 and with UTF-8 encoding:
+
+  ```python
+  #!/usr/bin/env python3
+  # -*- coding: utf-8 -*-
+  ```
+
+By incorporating these specifications, scripts can become more user-friendly, flexible, and safe to use, providing a better experience for users who run them.
+
 
 ## Scripts
 
