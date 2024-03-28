@@ -36,6 +36,15 @@ This will display the help message, including a brief description of the script 
   python 11_merge_to_pdf.py image1.png image2.jpg -o output.pdf
   ```
 
+### 3. Rotate Image Python Script
+
+- **File:** [20_Rotate_Image_Python_Script_2024_0328.md](20_Rotate_Image_Python_Script_2024_0328.md)
+- **Description:** This script rotates a PNG/JPG image by 90 degrees. It includes options for specifying the output filename, adding a help option, and confirming before overwriting an existing file.
+- **Usage:**
+  ```bash
+  python 21_rotate_image.py input_image.png --output rotated_image.png
+  ```
+
 ## How to Use
 
 To use these scripts, clone this repository and navigate to the directory containing the script you want to use. Make sure you have the required dependencies installed, and then run the script with the appropriate arguments.
