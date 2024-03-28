@@ -2,6 +2,20 @@
 
 A repository showcasing how to use ChatGPT to generate Python 3 code for various purposes.
 
+## Adding a Help Option
+
+One useful feature that ChatGPT can add to scripts is a help option. This option allows users to view a description of the script's functionality and usage instructions directly from the command line. To add a help option, ChatGPT typically uses the `argparse` module in Python, which provides a way to parse command-line options and arguments.
+
+By including a help option, users can quickly understand what the script does and how to use it without needing to read through the source code or external documentation. This makes the script more user-friendly and accessible.
+
+To access the help information for a script, you can typically use the `-h` or `--help` flag when running the script. For example:
+
+```bash
+python script_name.py --help
+```
+
+This will display the help message, including a brief description of the script and the available options.
+
 ## Scripts
 
 ### 1. Remove Empty Directories Script
