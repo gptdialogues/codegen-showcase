@@ -52,7 +52,6 @@ The following are some additional specifications that can be included in Python 
 
 By incorporating these specifications, scripts can become more user-friendly, flexible, and safe to use, providing a better experience for users who run them.
 
-
 ## Scripts
 
 ### 1. Remove Empty Directories Script
@@ -80,6 +79,15 @@ By incorporating these specifications, scripts can become more user-friendly, fl
 - **Usage:**
   ```bash
   python 21_rotate_image.py input_image.png --output rotated_image.png
+  ```
+
+### 4. ImageMagick Python Watermark Script
+
+- **File:** [30_ImageMagick_Python_Watermark_Script_2024_0517.md](30_ImageMagick_Python_Watermark_Script_2024_0517.md)
+- **Description:** This script adds a transparent watermark to an input image using the ImageMagick command through `subprocess`. It includes options for specifying the word, font size, color, opacity, and output filename. The watermark is placed in the center of the image, with the date information just below it. The script also confirms before overwriting an existing file.
+- **Usage:**
+  ```bash
+  python 31_add_watermark.py input_image.jpg --word "Confidential" --size 120 --color "rgba(0, 0, 0, 0.5)" --output output_image.jpg
   ```
 
 ## How to Use
