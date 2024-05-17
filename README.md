@@ -54,7 +54,7 @@ By incorporating these specifications, scripts can become more user-friendly, fl
 
 ## Scripts
 
-### 1. Remove Empty Directories Script
+### 0. Remove Empty Directories Script
 
 - **File:** [00_Remove_empty_dirs_script_2024_0327.md](00_Remove_empty_dirs_script_2024_0327.md)
 - **Description:** This script recursively finds and removes empty directories in a specified path. It includes options for specifying the output filename, running in silent mode, and displaying help.
@@ -63,7 +63,7 @@ By incorporating these specifications, scripts can become more user-friendly, fl
   python 01_clean_empty_folders.py --path <path-to-search> --output <output-file> --silent
   ```
 
-### 2. Merge PNG/JPG to PDF
+### 1. Merge PNG/JPG to PDF
 
 - **File:** [10_Merge_PNG_JPG_to_PDF_2024_0327.md](10_Merge_PNG_JPG_to_PDF_2024_0327.md)
 - **Description:** This script merges PNG/JPG image files into a single PDF file while preserving their original dimensions. It includes options for specifying the output filename and confirming before overwriting an existing file.
@@ -72,7 +72,7 @@ By incorporating these specifications, scripts can become more user-friendly, fl
   python 11_merge_to_pdf.py image1.png image2.jpg -o output.pdf
   ```
 
-### 3. Rotate Image Python Script
+### 2. Rotate Image Python Script
 
 - **File:** [20_Rotate_Image_Python_Script_2024_0328.md](20_Rotate_Image_Python_Script_2024_0328.md)
 - **Description:** This script rotates a PNG/JPG image by 90 degrees. It includes options for specifying the output filename, adding a help option, and confirming before overwriting an existing file.
@@ -81,7 +81,7 @@ By incorporating these specifications, scripts can become more user-friendly, fl
   python 21_rotate_image.py input_image.png --output rotated_image.png
   ```
 
-### 4. ImageMagick Python Watermark Script
+### 3. ImageMagick Python Watermark Script
 
 - **File:** [30_ImageMagick_Python_Watermark_Script_2024_0517.md](30_ImageMagick_Python_Watermark_Script_2024_0517.md)
 - **Description:** This script adds a transparent watermark to an input image using the ImageMagick command through `subprocess`. It includes options for specifying the word, font size, color, opacity, and output filename. The watermark is placed in the center of the image, with the date information just below it. The script also confirms before overwriting an existing file.
