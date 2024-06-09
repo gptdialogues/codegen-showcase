@@ -56,38 +56,38 @@ By incorporating these specifications, scripts can become more user-friendly, fl
 
 ### 0. Remove Empty Directories Script
 
-- **File:** [00_Remove_empty_dirs_script_2024_0327.md](00_Remove_empty_dirs_script_2024_0327.md)
+- **File:** [Remove_empty_dirs_script_2024_0327.md](0_clean_empty_folders/Remove_empty_dirs_script_2024_0327.md)
 - **Description:** This script recursively finds and removes empty directories in a specified path. It includes options for specifying the output filename, running in silent mode, and displaying help.
 - **Usage:**
   ```bash
-  python 01_clean_empty_folders.py --path <path-to-search> --output <output-file> --silent
+  python 0_clean_empty_folders/clean_empty_folders.py --path <path-to-search> --output <output-file> --silent
   ```
 
 ### 1. Merge PNG/JPG to PDF
 
-- **File:** [10_Merge_Images_to_PDF_2024_0609.md](10_Merge_Images_to_PDF_2024_0609.md)
+- **File:** [Merge_Images_to_PDF_2024_0609.md](1_merge_images/Merge_Images_to_PDF_2024_0609.md)
 - **Description:** This script merges PNG/JPG image files into a single PDF file while preserving their original dimensions. It includes options for specifying the output filename and confirming before overwriting an existing file.
 - **Usage:**
   ```bash
-  python 11_merge_images/merge_images.py image1.png image2.jpg -o output.pdf
+  python 1_merge_images/merge_images.py image1.png image2.jpg -o output.pdf
   ```
 
 ### 2. Rotate Image Python Script
 
-- **File:** [20_Rotate_Image_Python_Script_2024_0328.md](20_Rotate_Image_Python_Script_2024_0328.md)
+- **File:** [Rotate_Image_Python_Script_2024_0328.md](2_rotate_image/Rotate_Image_Python_Script_2024_0328.md)
 - **Description:** This script rotates a PNG/JPG image by 90 degrees. It includes options for specifying the output filename, adding a help option, and confirming before overwriting an existing file.
 - **Usage:**
   ```bash
-  python 21_rotate_image.py input_image.png --output rotated_image.png
+  python 2_rotate_image/rotate_image.py input_image.png --output rotated_image.png
   ```
 
 ### 3. ImageMagick Python Watermark Script
 
-- **File:** [30_ImageMagick_Python_Watermark_Script_2024_0517.md](30_ImageMagick_Python_Watermark_Script_2024_0517.md)
+- **File:** [ImageMagick_Python_Watermark_Script_2024_0517.md](3_add_watermark/ImageMagick_Python_Watermark_Script_2024_0517.md)
 - **Description:** This script adds a transparent watermark to an input image using the ImageMagick command through `subprocess`. It includes options for specifying the word, font size, color, opacity, and output filename. The watermark is placed in the center of the image, with the date information just below it. The script also confirms before overwriting an existing file.
 - **Usage:**
   ```bash
-  python 31_add_watermark.py input_image.jpg --word "Confidential" --size 120 --color "rgba(0, 0, 0, 0.5)" --output output_image.jpg
+  python 3_add_watermark/add_watermark.py input_image.jpg --word "Confidential" --size 120 --color "rgba(0, 0, 0, 0.5)" --output output_image.jpg
   ```
 
 ## How to Use
