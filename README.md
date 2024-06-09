@@ -65,11 +65,11 @@ By incorporating these specifications, scripts can become more user-friendly, fl
 
 ### 1. Merge PNG/JPG to PDF
 
-- **File:** [10_Merge_PNG_JPG_to_PDF_2024_0327.md](10_Merge_PNG_JPG_to_PDF_2024_0327.md)
+- **File:** [10_Merge_Images_to_PDF_2024_0609.md](10_Merge_Images_to_PDF_2024_0609.md)
 - **Description:** This script merges PNG/JPG image files into a single PDF file while preserving their original dimensions. It includes options for specifying the output filename and confirming before overwriting an existing file.
 - **Usage:**
   ```bash
-  python 11_merge_to_pdf.py image1.png image2.jpg -o output.pdf
+  python 11_merge_images/merge_images.py image1.png image2.jpg -o output.pdf
   ```
 
 ### 2. Rotate Image Python Script
