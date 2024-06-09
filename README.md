@@ -8,7 +8,8 @@ Below is a snippet I frequently use when instructing ChatGPT to write Python 3 c
 
 ~~~
 I would like to add some additional specifications below.
-- Add a help option using argparse.
+- Add a help option using `argparse`.
+- Add docstrings and type hints.
 - Add an option to specify the output filename. Use a default name by adding a specific suffix after the original basename.
 - Give some candidates for the file name of the script.
 - Ask "(y)es/(n)o" before overwriting an existing file (default: no). 
@@ -17,6 +18,7 @@ I would like to add some additional specifications below.
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 ```
+Also, please generate a test code for each function of the generated code using pytest.
 ~~~
 
 ## Adding a Help Option
